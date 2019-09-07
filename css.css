@@ -1,0 +1,300 @@
+* {
+    font-family: sans-serif;
+}
+
+.center {
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.center table {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border-style: none;
+    background: transparent;
+    outline: none;
+}
+
+button {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.center table {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border-style: none;
+    background: transparent;
+    outline: none;
+}
+
+button {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.webflow-style-input {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 5px 5px 0 0;
+    padding: 1.4rem 2rem 1.6rem;
+    background: rgba(57, 63, 84, 0.1);
+}
+
+.webflow-style-input:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    height: 2px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-position: 0 0;
+    background: -webkit-linear-gradient(left, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
+    background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
+    background-size: 500% auto;
+    -webkit-animation: gradient 3s linear infinite;
+    animation: gradient 3s linear infinite;
+}
+
+.webflow-style-input form input {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    color: #BFD2FF;
+    line-height: 1rem;
+    vertical-align: middle;
+}
+
+.webflow-style-input form input::-webkit-input-placeholder {
+    color: #7881A1;
+}
+
+.webflow-style-input form button {
+    color: #009879;
+    line-height: 1rem;
+    vertical-align: middle;
+    /*margin-left: -20px;*/
+    -webkit-transition: color .25s;
+    transition: color .25s;
+}
+.webflow-style-input form button:hover {
+    color: #BFD2FF;
+}
+
+.container {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.container div{
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: sans-serif;
+    border: none;
+    float: none;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 1.4rem 2rem 1.6rem;
+    display: inline;
+    letter-spacing: 1px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+    width: 200px;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:before:before {
+    speak: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-2 {
+    background: rgba(57, 63, 84, 0.1);
+    color: #7881A1;
+    box-shadow: 0 2px #009879;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+.btn-2a {
+    border-radius: 5px 5px 0 0;
+}
+
+.btn-2a:hover {
+    box-shadow: 0 4px #009879;
+    top: 2px;
+}
+
+.btn-2a:active {
+    box-shadow: 0 0 #009879;
+    top: 6px;
+}
